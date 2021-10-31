@@ -1,6 +1,6 @@
 # PHP MVC - Framework light
 
-Marco de desarrollo php vanilla construido bajo es estandar PSR-4 
+Marco de desarrollo php vanilla construido bajo el estandar PSR-4 
 
 ## Arquitectura
 
