@@ -1,0 +1,48 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+:root {
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+
+    --color-light:#f8f9fa;
+    --color-dark:#343a40;
+
+    --color-success: #28a745;
+    --color-danger:#dc3545;
+    --color-warning: #ffc107;
+    --color-info: #17a2b8;
+
+    --color-white: #ffffff;
+
+}
+
+/* Header */
+
+    .header-home{
+        background-color: var(--color-dark);
+        height: 80px;
+    }
+
+
+    .nav-links{
+        display: flex;
+    }
+
+    .nav-login{
+
+        float: right;
+
+    }
+
+    li>.nav-link{
+        color: var(--texColor);
+    }
+
+/* Header */
+
+li, h1{
+    color: red;
+}

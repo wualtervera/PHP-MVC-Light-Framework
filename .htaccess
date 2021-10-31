@@ -1,0 +1,11 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteBase /php-mvc/
+
+RewriteCond %{THE_REQUEST} /src/([^\s?]*) [NC]
+
+RewriteRule ^ %1 [L,NE,R=302]
+
+RewriteRule ^(.*)$ src/index.php?url=$1 [L,QSA]

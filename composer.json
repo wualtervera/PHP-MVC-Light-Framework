@@ -1,0 +1,27 @@
+{
+    "name": "wualtervera/php-mvc",
+    "description": "php mvc - framework light",
+    "type": "proyect",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "PHPMVC\\": "src/",
+            "PHPMVC\\Models\\": "src/app/models/",
+            "PHPMVC\\Controllers\\": "src/app/controllers/",
+            "PHPMVC\\Views\\": "src/app/views/",
+            "PHPMVC\\Core\\": "src/core/",
+            "PHPMVC\\Config\\": "src/config/",
+            "PHPMVC\\Public\\": "src/public/"
+           
+        }
+    },
+    "authors": [
+        {
+            "name": "wualtervera",
+            "email": "waltervera693@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "5.1.3"
+    }
+}
